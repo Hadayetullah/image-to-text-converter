@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload | OCR</title>
+  </head>
+  <body>
+    <h1>OCR App</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %} {% comment %} <input type="file" name="image" />
+      <button type="submit">Submit</button> {% endcomment %} {{ form.as_p }}
+      <button type="submit">Upload Image</button>
+    </form>
+  </body>
+</html>

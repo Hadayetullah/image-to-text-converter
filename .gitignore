@@ -1,0 +1,13 @@
+.ocrenv
+/.ocrenv
+
+uploads
+/uploads
+\uploads
+__pycache__
+/__pycache__
+
+migrations
+/migrations
+
+db.sqlite3
